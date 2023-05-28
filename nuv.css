@@ -1,6 +1,7 @@
 :any-link {
   color: inherit;
   display: inline-flex;
+  text-decoration: 3em dotted overline;
 }
 
 :focus {
@@ -19,7 +20,8 @@
 }
 
 html {
-  font-size: max(3ch, 4vmax + 1vmin);
+  font-family: fantasy;
+  font-size: max(3ch, 3vmax + 3vmin);
   line-height: 1.5;
 }
 
@@ -29,52 +31,26 @@ body {
 }
 
 article {
-  contain: layout;
-  padding: 1ch;
-}
-
-nav {
+  align-items: center;
   contain: layout;
   display: flex;
   flex-flow: column;
-  font-size: 1.236em;
-  margin-block: 1rem;
-  min-height: 100vh;
-  font-family: sans-serif;
+  justify-content: center;
+  padding: 1ch;
 }
 
-nav a {
-  padding-inline: 1ch;
+a {
+  display: inline-block;
+}
+
+samp {
+  display: inline-block;
+  font-size: 3em;
 }
 
 h1 {
-  font-family: fantasy;
-  font-weight: unset;
   margin: 0;
   margin-inline-end: 1em;
   float: right;
-  writing-mode: vertical-rl;
-}
-
-p {
-  float: right;
-  font-family: cursive;
-  margin: 0;
-  padding: 1em;
-}
-
-em {
-  font-family: monospace;
-}
-
-::first-letter {
-  font-family: sans-serif;
-  font-weight: bold;
-}
-
-@media (orientation: portrait) {
-  nav {
-    clear: both;
-    writing-mode: sideways-rl;
-  }
+  border-bottom: 1em dotted;
 }

@@ -1,10 +1,4 @@
-## [*fnuv* mural](https://webmural.com/fnuv)
+## [*avua* mural](https://webmural.com/avua)
 
-### [`nav`](index.html) [fun](fun.css) [nuv](nuv.css)
-
-```
-first
-name
-ultra
-violet
-```
+* [((( bluetang )))](https://s9a.page/bluetang)
+* [((( violet )))](https://s9a.page/violet)

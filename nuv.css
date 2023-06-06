@@ -21,10 +21,11 @@ article {
 samp {
   display: inline-block;
   font-size: 3em;
+  transform: rotate(163deg);
 }
 
-html:target samp {
-  transform: rotate(163deg);
+html:target {
+  filter: hue-rotate(30deg);
 }
 
 h1 {

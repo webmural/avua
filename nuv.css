@@ -28,6 +28,10 @@ html:target {
   filter: hue-rotate(30deg);
 }
 
+html:target samp {
+  transform: rotate(163deg);
+}
+
 h1 {
   margin: 0;
   margin-inline-end: 1em;
